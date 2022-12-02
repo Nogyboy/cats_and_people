@@ -1,52 +1,50 @@
+@font-face {
+  font-family: 'Anybody-Light';
+  src: local('Anybody-Light'), url("../fonts/Anybody/static/Anybody/Anybody-Light.ttf") format('truetype')
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
 }
 
 header {
   background-color: rgb(186, 182, 182);
+  position: flex;
+  border-bottom: 1px solid #dddddd;
+  z-index: 5;
   position: fixed;
   width: 100%;
-  z-index: 5;
+  top: 0px;
   height: 90px;
 }
 
-header img {
+header nav {
+  box-sizing: border-box;
+  height: 100%;
+  padding-left: 3.5%;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
   width: 80px;
-  padding: 10px 10px 10px 30px;
-  display: inline-block;
-
 }
 
-nav {
-  display: inline-block;
-  position: relative;
-  top: -50px;
-  left: 30px;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-nav li a {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  text-decoration: none;
-  color: rgb(219, 59, 112);
-}
-
-a {
+nav a {
+  font-family: 'Nerko One', sans-serif;
+  font-size: 30px;
   text-decoration: none;
   outline:none;
-  
+  color: rgb(219, 59, 112);
+  letter-spacing: 1px;
+  margin-right: 24px;
+  text-transform: uppercase;
 }
 
-.header {
+
+.banner {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -54,12 +52,11 @@ a {
 }
 
 
-.header h1 {
+.banner h1 {
   background-color: rgb(186, 182, 182);
   color: #FFF;
-  font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  font-weight: 600;
+  font-family: 'Anybody-Light';
+  font-size: 20px;
   line-height: 40px;
   width: 68%;
   padding: 10px;
@@ -84,19 +81,22 @@ article {
 
 article p {
   font-size: 20px;
+  font-family: 'Anybody-Light';
+
 }
 
 .button {
   border-radius: 4px;
   color: rgb(219, 59, 112);
   display: block;
-  font-weight: 700;
+  font-weight: bold;
   width: 150px;
   padding: 20px;
   margin: 40px auto;
   border: 2px solid rgb(219, 59, 112);
   text-decoration: none;
   text-align: center;
+  font-family: 'Anybody-Light';
 }
 
 .button:hover {
@@ -115,6 +115,9 @@ footer {
 
 footer p {
   padding-left: 30px;
+  font-family: 'Nerko One', cursive;
+  font-size: 25px;
+
 }
 
 td img {
@@ -130,7 +133,6 @@ td img {
   padding-top: 100px;
 }
 
-Create two equal columns that sits next to each other
 .column {
   flex: 50%;
   padding: 0 4px;
