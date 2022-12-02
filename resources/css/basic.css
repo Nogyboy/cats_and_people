@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Anybody-Light';
+    src: local('Anybody-Light'), url("../fonts/Anybody/static/Anybody/Anybody-Light.ttf") format('truetype')
+  }
+
+header {
+    background-color: rgb(186, 182, 182);
+    position: flex;
+    border-bottom: 1px solid #dddddd;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 90px;
+}
+
+header nav {
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 3.5%;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 80px;
+}
+
+nav a {
+    font-family: 'Nerko One', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    outline:none;
+    color: rgb(219, 59, 112);
+    letter-spacing: 1px;
+    margin-right: 24px;
+    text-transform: uppercase;
+}
+
+footer {
+    position: relative;
+    top: 120px;
+    background-color: rgb(186, 182, 182);
+    color: rgb(197, 74, 134);
+    padding: 30px 0;
+  }
+  
+footer p {
+    padding-left: 30px;
+    font-family: 'Nerko One', cursive;
+    font-size: 25px;
+  
+  }

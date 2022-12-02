@@ -1,0 +1,140 @@
+.content{
+    margin-top: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.colors{
+  margin: 10px;
+  border: 2px gray solid;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Anybody-Light";
+}
+
+.pink {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(197, 74, 134);;
+}
+
+.gray{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(186, 182, 182);;
+}
+
+.pink-red{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(219, 59, 112);;
+}
+
+.fonts{
+  border: 2px gray solid;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.nerko-one{
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.nerko-title{
+  font-family: 'Nerko One', sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.nerko-normal{
+  font-family: 'Nerko One', sans-serif;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.nerko-bold{
+  font-family: 'Nerko One', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.nerko-italic{
+  font-family: 'Nerko One', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.text_styles{
+  border: 2px gray solid;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.Anybody-Light{
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.anybody-title{
+  font-family: "Anybody-Light";
+  font-size: 25px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.anybody-normal{
+  font-family: "Anybody-Light";
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.anybody-bold{
+  font-family: "Anybody-Light";
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  
+}
+
+.anybody-italic{
+  font-family: "Anybody-Light";
+  font-style: italic;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Anybody-Light";
+  font-weight: 1000;
+  
+}
+
+h2 {
+  padding-top: 5px;
+  font-size: 25px;
+  font-family: "Anybody-Light";
+  font-weight: 500;
+}
+
+ul {
+  list-style: inside;
+}
+
+li{
+  padding: 5px;
+  font-family: "Anybody-Light";
+}
+
+p{
+  font-family: "Anybody-Light";
+  font-size: 18px;
+  font-weight: 500;
+}
