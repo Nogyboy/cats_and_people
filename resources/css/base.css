@@ -5,7 +5,6 @@
 
 header {
     background-color: rgb(186, 182, 182);
-    position: flex;
     border-bottom: 1px solid #dddddd;
     z-index: 5;
     position: fixed;

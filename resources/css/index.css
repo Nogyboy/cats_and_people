@@ -1,8 +1,22 @@
+.article {
+  position: relative;
+  top: 120px;
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+}
+
+
 .banner {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
+  background-color: transparent;
   height: 320px;
+  width: 500px;
 }
 
 
@@ -10,32 +24,22 @@
   background-color: rgb(186, 182, 182);
   color: #FFF;
   font-family: 'Anybody-Light';
-  font-size: 20px;
+  font-size: 18px;
   line-height: 40px;
-  width: 68%;
-  padding: 10px;
+  width: 400px;
+  height: 75px;
+  padding: 5px;
   position: relative;
   top: 65%;
   left: 1%;
   text-align: center;
 }
 
-.article {
-  position: relative;
-  top: 120px;
-  width: 90%;
-  margin: 0px auto;
-}
 
-article {
-  padding: 10px;
-  width: 80%;
-  margin: 0px auto;
-}
-
-article p {
+p {
   font-size: 20px;
   font-family: 'Anybody-Light';
+  line-height: 35px;
 
 }
 
@@ -55,7 +59,7 @@ article p {
 
 .button:hover {
   background-color: rgb(219, 59, 112);
-  border: 1px solid rgb(219, 59, 112);
+  border: 2px solid rgb(219, 59, 112);
   color: #FFF;
 }
 
