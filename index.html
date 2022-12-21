@@ -6,25 +6,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./resources/css/reset.css">
   <link rel="stylesheet" href="./resources/css/base.css">
   <link rel="stylesheet" href="./resources/css/index.css">
 
-  <title>Gatos y personas</title>
+  <title>Guía para cuidar un Gato</title>
 </head>
-
+<!-- Body -->
 <body>
-
+  <!-- Header -->
   <header>
-    <nav>
-      <a href="index.html"><img src="./resources/images/paw.png" rel="Logo Página"></a>
-      <a href="">Inicio </a>
-      <a href="./pages/photos.html"> Fotos </a>
-      <a href="./pages/info.html"> Info </a>
-    </nav>
+    <div class="content">
+      <a href="index.html"><img class="logo" src="./resources/images/paw.png" rel="Logo Página"></a>
+      <!-- Nav Bar Desktop -->
+      <nav class="desktop">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Aprender</a></li>
+          <li><a href="#">Ver</a></li>
+          <li><a href="#">Escuchar</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+      <!-- Nav Bar Mobile -->
+      <nav class="mobile">
+        <ul>
+          <li><a href="#"><img class="icon" src="./resources/icons/home_page.png" alt=""></a></li>
+          <li><a href="#"><img class="icon" src="./resources/icons/learn.png" alt=""></a></li>
+          <li><a href="#"><img class="icon" src="./resources/icons/video.png" alt=""></a></li>
+          <li><a href="#"><img class="icon" src="./resources/icons/listen.png" alt=""></a></li>
+          <li><a href="#"><img class="icon" src="./resources/icons/about.png" alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <section class="article">
@@ -53,7 +67,10 @@
   </section>
 
   <footer>
-    <p>Aprendiendo de gatitos...</p>
+    <div class="content">
+      <span class="copyright">© 2022  Aprendiendo de gatitos...</span>
+      <a class="code" href="https://github.com/Nogyboy/cats_and_people" target="_blank"><img src="./resources/icons/github-mark-white.png" alt="">Source Code</a>
+    </div>
   </footer>
 
 </body>

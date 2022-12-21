@@ -1,52 +1,144 @@
 @font-face {
-    font-family: 'Anybody-Light';
-    src: local('Anybody-Light'), url("../fonts/Anybody/static/Anybody/Anybody-Light.ttf") format('truetype')
+    font-family: 'Roboto-Light';
+    src: local('Roboto-Light'), url("../fonts/Roboto/Roboto-Light.ttf") format('truetype');
   }
+@font-face {
+    font-family: 'RobotoSlab-Bold';
+    src: local('RobotoSlab-Bold'), url("../fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf") format('truetype');
+}
+
+html {
+    font-family: "Roboto-Light";
+    font-size: 16px;
+}
+
 
 header {
-    background-color: rgb(186, 182, 182);
-    border-bottom: 1px solid #dddddd;
-    z-index: 5;
+    background-color: #D989B5;
+    border-bottom: solid 1px white;
     position: fixed;
+    z-index: 100;
     width: 100%;
-    top: 0px;
-    height: 90px;
 }
 
-header nav {
-    box-sizing: border-box;
-    height: 100%;
-    padding-left: 3.5%;
+header .content{
     display: flex;
     align-items: center;
+    padding: 0.25rem;
 }
 
-nav img {
-    width: 80px;
+header .logo{
+    width: 4rem;
+    padding-left: 1rem;
 }
 
-nav a {
-    font-family: 'Nerko One', sans-serif;
-    font-size: 30px;
+header a {
+  text-decoration: none;
+  outline:none;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header .desktop li {
+    padding-left: 2.5rem;
+}
+
+.desktop a {
+    font-family: "RobotoSlab-Bold";
     text-decoration: none;
     outline:none;
-    color: rgb(219, 59, 112);
-    letter-spacing: 1px;
-    margin-right: 24px;
-    text-transform: uppercase;
+    color: #863A6F;
+    vertical-align: bottom;
+    font-size: 1.50rem;
 }
 
+
+header .mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    header .desktop {
+      display: none;
+    }
+  
+    header .mobile {
+      display: block;
+      width: 100%;
+    }
+    
+    nav .icon{
+        width: 2.7rem;
+    }
+
+    header .content {
+      padding: .5rem 0;
+    }
+  
+    header .mobile ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    header .mobile li {
+      padding: 0;
+    }
+
+    footer .content {
+      font-size: 0.5rem;
+      font-family: "RobotoSlab-Bold";
+    }
+    
+  }
+
+@media only screen and (max-width: 895px) {
+  nav li:last-child {
+    display: block;
+  }
+
+  header .desktop li {
+    padding-left: 1.5rem;
+  }
+
+} 
+
 footer {
-    position: relative;
-    top: 120px;
-    background-color: rgb(186, 182, 182);
-    color: rgb(197, 74, 134);
-    padding: 30px 0;
+  padding: 1.5rem 2rem;
+  background-color: #D989B5;
+}
+
+footer .content {
+    color: #863A6F;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-family: "RobotoSlab-Bold";
   }
-  
-footer p {
-    padding-left: 30px;
-    font-family: 'Nerko One', cursive;
-    font-size: 25px;
-  
+
+footer .copyright {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
   }
+
+footer .code {
+  display: flex;
+  align-items: center;
+}
+
+footer img{
+  width: 1.65rem;
+  padding-right: 0.5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  footer .content {
+    font-size: 1rem;
+  }
+}
