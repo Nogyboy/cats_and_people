@@ -1,35 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../resources/css/reset.css">
     <link rel="stylesheet" href="../resources/css/base.css">
-    <link rel="stylesheet" href="../resources/css/info.css">
-    <title>Info</title>
+    <link rel="stylesheet" href="../resources/css/about.css">
+
+    <title>Aprender</title>
 </head>
+<!-- Body -->
 
 <body>
+    <!-- Header -->
     <header>
-        <nav>
-            <a href="../index.html"><img src="../resources/images/paw.png" rel="Logo Página"></a>
-            <a href="../index.html">Inicio </a>
-            <a href="../pages/photos.html"> Fotos </a>
-            <a href=""> Info </a>
-        </nav>
-      </header>
+        <div class="navbar">
+            <a href="../index.html"><img class="logo" src="../resources/images/paw.png" rel="Logo Página"></a>
+            <!-- Nav Bar Desktop -->
+            <nav class="desktop">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./learn.html">Aprender</a></li>
+                    <li><a href="./watch.html">Ver</a></li>
+                    <li><a href="./listen.html">Escuchar</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </nav>
+            <!-- Nav Bar Mobile -->
+            <nav class="mobile">
+                <ul>
+                    <li><a href="../index.html"><img class="icon" src="../resources/icons/home_page.png" alt=""></a></li>
+                    <li><a href="./learn.html"><img class="icon" src="../resources/icons/learn.png" alt=""></a>
+                    </li>
+                    <li><a href="./watch.html"><img class="icon" src="../resources/icons/video.png" alt=""></a>
+                    </li>
+                    <li><a href="./listen.html"><img class="icon" src="../resources/icons/listen.png" alt=""></a>
+                    </li>
+                    <li><a href="#"><img class="icon" src="../resources/icons/about.png" alt=""></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <ul class="list-info">
         <li><a href="./design_system.html">Sistema de Diseño</a></li>
     </ul>
+
     <footer>
-        <p>Aprendiendo de gatitos...</p>
-        <p>Para más información llamar al 999-Gatito...</p>
+        <div class="footer-content">
+            <span class="copyright">© 2022 Aprendiendo de gatitos...</span>
+            <a class="code" href="https://github.com/Nogyboy/cats_and_people" target="_blank"><img
+                    src="./resources/icons/github-mark-white.png" alt="">Source Code</a>
+        </div>
     </footer>
+
 </body>
 
 </html>
+
+<!DOCTYPE html>
+<html lang="en">

@@ -1,12 +1,11 @@
 .article {
-  position: relative;
-  top: 120px;
   width: 90%;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 900px;
+  padding: 120px 0px;
 }
 
 
@@ -48,11 +47,11 @@ p {
   font-weight: bold;
   width: 150px;
   padding: 20px;
-  margin: 40px auto;
+  margin-top: 20px;
   border: 2px solid rgb(219, 59, 112);
   text-decoration: none;
   text-align: center;
-  font-family: 'Anybody-Light';
+  font-family: "Roboto-Light";
 }
 
 .button:hover {
